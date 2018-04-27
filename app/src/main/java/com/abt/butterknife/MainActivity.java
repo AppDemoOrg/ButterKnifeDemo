@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.submit) void submit() {
         Logger.d("submit = "+loginSuccess);
+        String name = userName.getText().toString().trim();
+        String pass = passWord.getText().toString().trim();
+        Logger.d("name = "+name);
+        Logger.d("pass = "+pass);
         Toast.makeText(this, ""+loginSuccess, Toast.LENGTH_LONG).show();
     }
 
