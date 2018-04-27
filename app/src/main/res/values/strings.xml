@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">ButterKnifeDemo</string>
+    <string name="username">UserName</string>
+    <string name="Password">Password</string>
+    <string name="submit">SUBMIT</string>
+    <string name="login_success">Login Success!!</string>
+</resources>
